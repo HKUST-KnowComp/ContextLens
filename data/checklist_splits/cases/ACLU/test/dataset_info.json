@@ -1,0 +1,143 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "priva_ci-bench_cases",
+  "dataset_size": 6273115,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/teapotlid/PrivaCI-Bench_cases@7426b7b347261a55bb13943d76b6347dda29362c/data/AI_ACT-00000-of-00001.parquet": {
+      "num_bytes": 879907,
+      "checksum": null
+    },
+    "hf://datasets/teapotlid/PrivaCI-Bench_cases@7426b7b347261a55bb13943d76b6347dda29362c/data/GDPR-00000-of-00001.parquet": {
+      "num_bytes": 767303,
+      "checksum": null
+    },
+    "hf://datasets/teapotlid/PrivaCI-Bench_cases@7426b7b347261a55bb13943d76b6347dda29362c/data/HIPAA-00000-of-00001.parquet": {
+      "num_bytes": 300984,
+      "checksum": null
+    },
+    "hf://datasets/teapotlid/PrivaCI-Bench_cases@7426b7b347261a55bb13943d76b6347dda29362c/data/ACLU-00000-of-00001.parquet": {
+      "num_bytes": 115887,
+      "checksum": null
+    }
+  },
+  "download_size": 2064081,
+  "features": {
+    "norm_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sender": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "sender_role": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "recipient": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "recipient_role": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "subject": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "subject_role": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "information_type": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "consent_form": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "purpose": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "followed_articles": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "violated_articles": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "case_content": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 8337196,
+  "splits": {
+    "AI_ACT": {
+      "name": "AI_ACT",
+      "num_bytes": 3391407,
+      "num_examples": 3000,
+      "dataset_name": "priva_ci-bench_cases"
+    },
+    "GDPR": {
+      "name": "GDPR",
+      "num_bytes": 2161411,
+      "num_examples": 3137,
+      "dataset_name": "priva_ci-bench_cases"
+    },
+    "HIPAA": {
+      "name": "HIPAA",
+      "num_bytes": 544560,
+      "num_examples": 214,
+      "dataset_name": "priva_ci-bench_cases"
+    },
+    "ACLU": {
+      "name": "ACLU",
+      "num_bytes": 175737,
+      "num_examples": 69,
+      "dataset_name": "priva_ci-bench_cases"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

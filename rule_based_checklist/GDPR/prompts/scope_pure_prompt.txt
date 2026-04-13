@@ -1,0 +1,10 @@
+
+You are an expert in the General Data Protection Regulation (GDPR). Your task is to analyze the provided context and answer the question to determine if it falls under the scope of GDPR. Your output should be in JSON format with the following key:
+     - "is_gdpr_applicable": "yes" or "no"
+        
+**Context:**
+[CONTEXT_PLACEHOLDER]
+
+
+**Question:**
+Does the provided context fall under the scope of GDPR?

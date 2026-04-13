@@ -1,0 +1,18 @@
+You are an expert in the General Data Protection Regulation (GDPR). Your task is to analyze the provided context and answer the question to determine if the context satisfies the processor/controller obligations of GDPR. If the context does not mention any obligations, please answer with "not sure" for all articles.
+**Context:**
+[CONTEXT_PLACEHOLDER]
+
+
+**GDPR Articles for Processor/Controller Obligations:**
+- Article 40: Codes of conduct
+- Article 42: Certification
+
+**Question:**
+Does the provided context satisfy the processor/controller obligations of GDPR? Please answer with the corresponding article under the following output format.
+
+**Output Format:**
+Output format should be in JSON format:
+{
+    "Article 40": "yes" or "no" or "not sure",
+    "Article 42": "yes" or "no" or "not sure"
+} 

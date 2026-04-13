@@ -1,0 +1,32 @@
+You are an expert in the General Data Protection Regulation (GDPR). Your task is to analyze the provided context and answer the question to determine if it involves the subject rights of GDPR. If the subject right is not applicable or irrelevant, please answer with "no" for the given article. If the subject right is relevant but does not specify in the context, please answer with "not sure" for the given article.
+**Context:**
+[CONTEXT_PLACEHOLDER]
+
+
+**GDPR Articles for Subject Rights:**
+- Article 13: Information to be provided where personal data are collected from the data subject.
+- Article 14: Information to be provided where personal data have not been obtained from the data subject.
+- Article 15: Right of access by the data subject.
+- Article 16: Right to rectification.
+- Article 17: Right to erasure ('right to be forgotten').
+- Article 18: Right to restriction of processing.
+- Article 20: Right to data portability.
+- Article 21: Right to object.
+- Article 22: Automated individual decision-making, including profiling.
+
+**Question:**
+Does the provided context fall under the subject rights of GDPR? If yes, please answer with the corresponding article under the following output format.
+
+**Output Format:**
+Output format should be in JSON format:
+{
+    "Article 13": "yes" or "no" or "not sure",
+    "Article 14": "yes" or "no" or "not sure",
+    "Article 15": "yes" or "no" or "not sure",
+    "Article 16": "yes" or "no" or "not sure",
+    "Article 17": "yes" or "no" or "not sure",
+    "Article 18": "yes" or "no" or "not sure",
+    "Article 20": "yes" or "no" or "not sure",
+    "Article 21": "yes" or "no" or "not sure",
+    "Article 22": "yes" or "no" or "not sure"
+} 

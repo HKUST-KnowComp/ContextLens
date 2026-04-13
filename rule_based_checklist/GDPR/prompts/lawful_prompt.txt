@@ -1,0 +1,28 @@
+You are an expert in the General Data Protection Regulation (GDPR). Your task is to analyze the provided context and answer the question to determine if it falls under the lawful basis of GDPR. If the lawful basis cannot be inferred from context, please answer with "not sure".
+**Context:**
+[CONTEXT_PLACEHOLDER]
+
+
+**GDPR Articles for Lawful Basis:**
+-  : Lawfulness of processing
+- Article 6(1)(a): the data subject has given consent to the processing of his or her personal data for one or more specific purposes;
+- Article 6(1)(b): processing is necessary for the performance of a contract to which the data subject is party or in order to take steps at the request of the data subject prior to entering into a contract;
+- Article 6(1)(c): processing is necessary for compliance with a legal obligation to which the controller is subject;
+- Article 6(1)(d): processing is necessary in order to protect the vital interests of the data subject or of another natural person;
+- Article 6(1)(e): processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller;
+- Article 6(1)(f): processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child.
+
+
+**Question:**
+Does the provided context satisfy lawful basis of GDPR? If yes, please answer with the corresponding article under the following output format.
+
+**Output Format:**
+Output format should be in JSON format:
+{
+    "Article 6(1)(a)": "yes" or "no" or "not sure",
+    "Article 6(1)(b)": "yes" or "no" or "not sure",
+    "Article 6(1)(c)": "yes" or "no" or "not sure",
+    "Article 6(1)(d)": "yes" or "no" or "not sure",
+    "Article 6(1)(e)": "yes" or "no" or "not sure",
+    "Article 6(1)(f)": "yes" or "no" or "not sure"
+} 

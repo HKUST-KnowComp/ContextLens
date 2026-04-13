@@ -1,0 +1,212 @@
+{
+    "Which kind of entity is your organisation?": {
+        "theme": "Entity type",
+        "options": [
+            "Provider",
+            "Deployer",
+            "Distributor",
+            "Importer",
+            "Product manufacturer",
+            "Authorised representative"
+        ],
+        "outcome": {
+            "Provider": "Has a downstream deployer, distributer, or importer made any of the following modifications to your system?",
+            "Deployer": "Do you perform any of the following actions?",
+            "Distributor": "Do you perform any of the following actions?",
+            "Importer": "Do you perform any of the following actions?",
+            "Product manufacturer": "Does your product include an AI system as a 'safety component' AND fall within any of the following categories?",
+            "Authorised representative": "Do you meet any of the following criteria?"
+        },
+        "source": "Source: Article 2",
+        "background": "\n**Definition**\n\nProvider: a natural or legal person, public authority, agency or other body that develops an AI system or a general purpose AI model (or that has an AI system or a general purpose AI model developed) and places them on the market or puts the system into service under its own name or trademark, whether for payment or free of charge;\n\nDeployer: any natural or legal person, public authority, agency or other body using an AI system under its authority except where the AI system is used in the course of a personal non-professional activity;\n\nDistributor: any natural or legal person in the supply chain, other than the provider or the importer, that makes an AI system available on the Union market;\n\nImporter: any natural or legal person located or established in the Union that places on the market an AI system that bears the name or trademark of a natural or legal person established outside the Union;\n\nAuthorised representative: any natural or legal person located or established in the Union who has received and accepted a written mandate from a provider of an AI system or a general purpose AI model to, respectively, perform and carry out on its behalf the obligations and procedures established by this Regulation.\n\nProduct manufacturer: places on the market or puts into service an AI system together with their product and under their own name or trademark;\n"
+    },
+    "Has a downstream deployer, distributer, or importer made any of the following modifications to your system?": {
+        "theme": "Downstream modifications",
+        "options": [
+            "Putting a different name/trademark on the system",
+            "Modifying the intended purpose of a system already in operation",
+            "Performing a substantial modification (see Article 3 point 23) to the system",
+            "None of the above"
+        ],
+        "outcome": {
+            "Putting a different name/trademark on the system": "Do you meet any of the following criteria?",
+            "Modifying the intended purpose of a system already in operation": "Do you meet any of the following criteria?",
+            "Performing a substantial modification (see Article 3 point 23) to the system": "Do you meet any of the following criteria?",
+            "None of the above": "Do you meet any of the following criteria?"
+        },
+        "source": "Source: Article 2",
+        "background": ""
+    },
+    "Do you perform any of the following actions?": {
+        "theme": "System modifications",
+        "options": [
+            "Putting a different name/trademark on the system",
+            "Modifying the intended purpose of a system already in operation",
+            "Performing a substantial modification (see Article 3 point 23) to the system",
+            "None of the above"
+        ],
+        "outcome": {
+            "Putting a different name/trademark on the system": "Do you meet any of the following criteria?",
+            "Modifying the intended purpose of a system already in operation": "Do you meet any of the following criteria?",
+            "Performing a substantial modification (see Article 3 point 23) to the system": "Do you meet any of the following criteria?",
+            "None of the above": "Do you meet any of the following criteria?"
+        },
+        "source": "Source: Article 2",
+        "background": ""
+    },
+    "Does your product include an AI system as a 'safety component' AND fall within any of the following categories?": {
+        "theme": "Products with AI safety components",
+        "options": [
+            "Machinery",
+            "Toys",
+            "Recreational craft & personal watercraft",
+            "Lifts and safety components of lifts",
+            "Equipment and protective systems intended for use in potentially explosive atmospheres",
+            "Radio equipment",
+            "Pressure equipment",
+            "Cableway installations",
+            "Personal protective equipment",
+            "Appliances burning gaseous fuels",
+            "Medical devices",
+            "In vitro diagnostic medical devices",
+            "None of the above"
+        ],
+        "outcome": {
+            "Machinery": "Does the AI system in your product meet any of these conditions?",
+            "Toys": "Does the AI system in your product meet any of these conditions?",
+            "Recreational craft & personal watercraft": "Does the AI system in your product meet any of these conditions?",
+            "Lifts and safety components of lifts": "Does the AI system in your product meet any of these conditions?",
+            "Equipment and protective systems intended for use in potentially explosive atmospheres": "Does the AI system in your product meet any of these conditions?",
+            "Radio equipment": "Does the AI system in your product meet any of these conditions?",
+            "Pressure equipment": "Does the AI system in your product meet any of these conditions?",
+            "Cableway installations": "Does the AI system in your product meet any of these conditions?",
+            "Personal protective equipment": "Does the AI system in your product meet any of these conditions?",
+            "Appliances burning gaseous fuels": "Does the AI system in your product meet any of these conditions?",
+            "Medical devices": "Does the AI system in your product meet any of these conditions?",
+            "In vitro diagnostic medical devices": "Does the AI system in your product meet any of these conditions?",
+            "None of the above": "Out of scope"
+        },
+        "source": "Source: Article 2",
+        "background": ""
+    },
+    "Does the AI system in your product meet any of these conditions?": {
+        "theme": "Products with AI safety components",
+        "options": [
+            "The AI system was / will be 'placed on the market' together with my product under my manufacturer name or trademark",
+            "The AI system was / will be 'put into service' under my manufacturer name or trademark after my product has been placed on the market",
+            "None of the above"
+        ],
+        "outcome": {
+            "The AI system was / will be 'placed on the market' together with my product under my manufacturer name or trademark": "Do you meet any of the following criteria?",
+            "The AI system was / will be 'put into service' under my manufacturer name or trademark after my product has been placed on the market": "Do you meet any of the following criteria?",
+            "None of the above": "Out of scope"
+        },
+        "source": "Source: Article 2",
+        "background": ""
+    },
+    "Do you meet any of the following criteria?": {
+        "theme": "Scope",
+        "options": [
+            "I am placing on the market or putting into service AI systems in the Union (regardless of whether you are established within the Union or in a third country)",
+            "My AI system's output is used in the EU",
+            "My AI system is located in a non-EU country where 'EU Member State law' applies by virtue of public international law",
+            "My system is considered to be 'prohibited' (see Article 5) and is used by a downstream deployer who is based in the EU",
+            "None of the above"
+        ],
+        "outcome": {
+            "I am placing on the market or putting into service AI systems in the Union (regardless of whether you are established within the Union or in a third country)": "Is your system a General Purpose AI model?",
+            "My AI system's output is used in the EU": "Is your system a General Purpose AI model?",
+            "My AI system is located in a non-EU country where 'EU Member State law' applies by virtue of public international law": "Is your system a General Purpose AI model?",
+            "My system is considered to be 'prohibited' (see Article 5) and is used by a downstream deployer who is based in the EU": "Is your system a General Purpose AI model?",
+            "None of the above": "Out of scope"
+        },
+        "source": "Source: Article 2",
+        "background": ""
+    },
+    "Is your system a General Purpose AI model?": {
+        "theme": "General Purpose AI models",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "outcome": {
+            "Yes": "Does your system fall within any of the following categories?",
+            "No": "Does your system fall within any of the following categories?"
+        },
+        "source": "Source: Article 2",
+        "background": ""
+    },
+    "Does your system fall within any of the following categories?": {
+        "theme": "Excluded systems",
+        "options": [
+            "AI systems developed and used exclusively for military purposes",
+            "AI systems used by public authorities or international organisations in third countries for law enforcement and judicial cooperation",
+            "AI research and development activity",
+            "People using AI systems for purely personal, non-professional activity",
+            "AI components provided under free and open-source licences",
+            "None of the above"
+        ],
+        "outcome": {
+            "AI systems developed and used exclusively for military purposes": "Excluded",
+            "AI systems used by public authorities or international organisations in third countries for law enforcement and judicial cooperation": "Excluded",
+            "AI research and development activity": "Does your system perform any of these functions?",
+            "People using AI systems for purely personal, non-professional activity": "Does your system perform any of these functions?",
+            "AI components provided under free and open-source licences": "Does your system perform any of these functions?",
+            "None of the above": "Does your system perform any of these functions?"
+        },
+        "source": "Source: Article 5",
+        "background": ""
+    },
+    "Does your system perform any of these functions?": {
+        "theme": "Prohibited systems",
+        "options": [
+            "Subliminal techniques, manipulation, and deception",
+            "Exploiting vulnerabilities",
+            "Biometric categorisation",
+            "Social scoring",
+            "Predictive policing",
+            "Expanding facial recognition databases",
+            "Emotion recognition",
+            "Real-time remote biometrics",
+            "None of the above"
+        ],
+        "outcome": {
+            "Subliminal techniques, manipulation, and deception": "Prohibited",
+            "Exploiting vulnerabilities": "Prohibited",
+            "Biometric categorisation": "Prohibited",
+            "Social scoring": "Prohibited",
+            "Predictive policing": "Prohibited",
+            "Expanding facial recognition databases": "Prohibited",
+            "Emotion recognition": "Prohibited",
+            "Real-time remote biometrics": "Prohibited",
+            "None of the above": "Does your AI system (or the product for which your AI system is a 'safety component') fall within any of the following high-risk categories?"
+        },
+        "source": "Source: Article 3 point 14",
+        "background": ""
+    },
+    "Does your AI system (or the product for which your AI system is a 'safety component') fall within any of the following high-risk categories?": {
+        "theme": "High-risk system or safety component",
+        "options": [
+            "Civil aviation security",
+            "Two- or three-wheel vehicles and quadricycles",
+            "Agricultural and forestry vehicles",
+            "Marine equipment",
+            "Interoperability of the rail systems",
+            "Motor vehicles and their trailers",
+            "Civil aviation",
+            "None of the above"
+        ],
+        "outcome": {
+            "Civil aviation security": "High-risk exception",
+            "Two- or three-wheel vehicles and quadricycles": "High-risk exception",
+            "Agricultural and forestry vehicles": "High-risk exception",
+            "Marine equipment": "High-risk exception",
+            "Interoperability of the rail systems": "High-risk exception",
+            "Motor vehicles and their trailers": "High-risk exception",
+            "Civil aviation": "High-risk exception",
+            "None of the above": "Handover obligations"
+        },
+        "source": "Source: Article 2, Article 112",
+        "background": ""
+    }
+}

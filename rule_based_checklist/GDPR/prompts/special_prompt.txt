@@ -1,0 +1,33 @@
+
+You are an expert in the General Data Protection Regulation (GDPR). Your task is to analyze the provided context and answer the question to determine if it falls under the atricles of special conditions. If the context is not relevant or not applicable to the referred article, please answer "no". If the context is relevant and cannot be determined for the given special conditions, please answer with "not sure" for this article.
+
+**Context:**
+[CONTEXT_PLACEHOLDER]
+
+
+**GDPR Articles for Special Conditions:**
+- Article 8: Conditions applicable to child's consent
+- Article 9: Processing of special categories of personal data about racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, genetic data, biometric data, health data, sex life or sexual orientation.
+- Article 10: Processing of personal data relating to criminal convictions and offences.
+- Article 11: Processing of personal data do not or do no longer require the identification of a data subject.
+- Article 44: Transfers of personal data to third countries or international organisations.
+- Article 86: Processing and public access to official documents.
+- Article 87: Processing of the national identification number.
+- Article 88: Processing in the context of employment.
+- Article 89: Safeguards and derogations relating to processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes
+
+**Question:** 
+Does the provided context fall under the special conditions of GDPR? If yes, please answer with the corresponding articile under the following output format.
+
+**Output Format:**
+Output format should be in JSON format:
+{
+    "Article 8": "yes" or "no" or "not sure",
+    "Article 9": "yes" or "no" or "not sure",
+    "Article 10": "yes" or "no" or "not sure",
+    "Article 11": "yes" or "no" or "not sure",
+    "Article 44": "yes" or "no" or "not sure",
+    "Article 86": "yes" or "no" or "not sure",
+    "Article 87": "yes" or "no" or "not sure",
+    "Article 88": "yes" or "no" or "not sure"
+} 

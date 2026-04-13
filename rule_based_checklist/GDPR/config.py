@@ -1,0 +1,10 @@
+
+    
+DATA_PATH = 'INPUT_YOUR_DATA_PATH'
+OPENAI_API_KEY = 'INPUT_YOUR_OPENAI_API_KEY'
+API_NAME =  'INPUT_YOUR_API_NAME'
+API_MODEL = 'INPUT_YOUR_API_MODEL'
+
+
+HF_KBs_path = f'{DATA_PATH}/HF_cache/KBs'
+HF_cases_path = f'{DATA_PATH}/checklist_splits/cases'

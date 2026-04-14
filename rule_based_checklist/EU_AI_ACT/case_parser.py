@@ -139,30 +139,17 @@ if __name__ == "__main__":
     DOMAINS = args.domains.split('+')
     for domain in DOMAINS:
         #domain = 'AI_ACT'
-        assert domain in ['GDPR', 'HIPAA', 'AI_ACT', 'ACLU'], 'Invalid domain name' 
-        #dataset = load_from_disk(f'/aifs4su/hansirui_2nd/haoran/haoran_rl/checklist_splits/cases/{domain}')
+        assert domain in ['GDPR', 'AI_ACT'], 'Invalid domain name.' 
+        #dataset = load_from_disk(f'PATH_TO_CASES/cases/{domain}')
         dataset = get_local_case_dataset(domain)
         data = dataset['test']
 
-        response_path1 = f'logs_old/final_response_{domain}.json'
-        # if domain == 'GDPR':
-        #     response_path1 = f'logs_old/final_response_GDPR_filtered.json'
-        # with open(response_path1, 'r') as f:
-        #     response_list1 = json.load(f)
+        #response_path1 = f'logs_old/final_response_{domain}.json'
+        
 
-        # response_path2 = f'logs/final_response_{domain}.json'
-        # if domain == 'GDPR':
-        #     response_path2 = f'logs/final_response_GDPR_filtered.json'
-        # with open(response_path2, 'r') as f:
-        #     response_list2 = json.load(f)
-
-        # response_list = response_list1 + response_list2
-
-        # with open(f"final/final_response_{domain}_{args.api_model}.json", 'w') as f:
-        #     json.dump(response_list, f, indent=4)
-
-        #response_path = f"{args.log_path}final_response_{domain}_{args.api_model}.json"
-        response_path = f"/data/hlibt/checklist/rule_based_checklist/EU_AI_ACT/logs/llama3.1/final_response_AI_ACT_meta-llama--Llama-3.1-8B-Instruct.json"
+        # path to the response file
+        response_path = f"{args.log_path}final_response_{domain}_{args.api_model}.json"
+    
         temp_log_path = response_path.replace('.json', 'result.log')
         with open(response_path, 'r') as f:
             response_list = json.load(f)
@@ -190,10 +177,7 @@ if __name__ == "__main__":
                 print(f"Error parsing response for case {idx}: {e}")
                 print(f'idx: {idx}. ground truth:{cur_case['norm_type']}\nresponse: {response['response']}')
                 continue
-            # print('----------------------')
-            # print(results)
-            # print(cur_case['norm_type'])
-            #print(result_paths)
+
             log(temp_log_path, f"idx: {idx}")
             log(temp_log_path, f"results: {results}")
             log(temp_log_path, f"cur_case['norm_type']: {cur_case['norm_type']}, voted_result_norm_type: {voted_result_norm_type}")

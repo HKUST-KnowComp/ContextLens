@@ -211,8 +211,7 @@ def analyze_result(parsed_list):
         parse_result(principal_dict, temp_dict)
 
         ### result
-        #if case_dict['scope_prompt'] == 'not applicable':
-        #    temp_dict['pred'] = 'not applicable'
+
         result = temp_dict['pred'] in label_list
         temp_dict['result'] = int(result)
         correct_count += int(result)

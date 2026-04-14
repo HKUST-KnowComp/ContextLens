@@ -3,7 +3,7 @@
 <h1>ContextLens: Modeling Imperfect Privacy and Safety Context for Legal Compliance</h1>
 
 <p>
-  <a href="https://hlibt.student.ust.hk/">Haoran Li</a><sup>1</sup>, 
+  <a href="https://teapotliid.github.io/">Haoran Li</a><sup>1</sup>, 
   <a href="https://egbertjing.github.io/">Huihao Jing</a><sup>1</sup>, 
   <a href="https://whuak.github.io/">Wenbin Hu</a><sup>1</sup>, 
   Tsz Ho Li<sup>1</sup>, 

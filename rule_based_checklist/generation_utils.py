@@ -118,8 +118,9 @@ class OpenAI_model:
         retries = 0
         while retries < max_retries:
             try:
-                if(self.api_name == 'deepseek'):
-                    model = 'ep-20250208151949-2c29b'
+                # set up your own endpoint
+                # if(self.api_name == 'deepseek'):
+                #     model = 'ep-20250208151949-2c29b'
                 response = self.client.chat.completions.create(
                     model = model,
                     messages=messages,
